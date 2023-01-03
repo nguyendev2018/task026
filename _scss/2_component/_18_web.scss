@@ -1,0 +1,30 @@
+.c-web {
+    .l-container {
+        max-width: 1742px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 30px;
+    }
+
+    .c-web__list {
+        display: flex;
+    }
+
+    .c-web__item {
+        --mr: 63px;
+        --width: 20%;
+        width: calc(20% - var(--mr));
+        margin-right: 63px;
+
+        &:first-child {
+            background: #231815;
+        }
+    }
+
+    .c-web__boximg {
+        img {
+            width: 36px;
+            height: auto;
+        }
+    }
+}
